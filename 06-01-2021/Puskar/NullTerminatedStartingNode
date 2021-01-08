@@ -1,0 +1,51 @@
+package jan_06;
+
+
+import jan_06.MixedLinkedList.ListNode;
+
+public class NullTerminatedStartingNode 
+{
+	public static void nullTerminatedOrCyclic(MixedLinkedList list)
+	{
+		ListNode fast_ptr=list.head;//moves Alternate
+		ListNode slow_ptr=list.head;//move One After Another
+		boolean flag=false;
+		while(fast_ptr!=null&&fast_ptr.next!=null)
+		{
+			fast_ptr=fast_ptr.next.next;
+			slow_ptr=slow_ptr.next;
+			if(fast_ptr==slow_ptr)
+			{
+				flag=true;
+				break;
+			}
+			
+		}
+		if(flag)
+		{
+			slow_ptr=list.head;
+			while(fast_ptr==slow_ptr)
+			{
+				fast_ptr=fast_ptr.next;
+				slow_ptr=slow_ptr.next;
+			}
+			System.out.println("Cycle Starts with : "+fast_ptr.data);
+			return;
+		}
+		System.out.println("Cycle Doestn't Exits");
+		return;
+		
+	}
+	public static void main(String[] args)
+	{
+		MixedLinkedList list =new MixedLinkedList();
+		list.push(list, 0);
+		list.push(list, 1);
+		list.push(list, 2);
+		list.push(list, 3);
+		list.push(list, 4);
+		list.push(list, 5);
+		list.MakeCycle(list);//this method makes cylcle in linked list
+		nullTerminatedOrCyclic(list);
+	}
+}
