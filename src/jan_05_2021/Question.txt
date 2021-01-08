@@ -1,0 +1,14 @@
+Question.1
+Implement Stack using Linked List.
+
+
+Question.2
+Find nth node from the end of a Linked List.(Problem-2)
+
+
+
+Question.3
+Can we solve Problem-2 in one scan?(Problem-3)
+
+Question.4
+Can we solve Problem-3 with recursion?

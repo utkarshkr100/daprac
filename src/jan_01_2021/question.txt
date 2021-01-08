@@ -1,0 +1,7 @@
+Q1. Print "Hello world".
+Q2. Print "Hello moto".
+
+
+
+
+

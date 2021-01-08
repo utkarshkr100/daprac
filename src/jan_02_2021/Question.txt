@@ -1,0 +1,19 @@
+Question.1
+Towers of Hanoi puzzle using Recursion.
+https://practice.geeksforgeeks.org/problems/tower-of-hanoi/0
+
+Question.2
+Given an array, check whether the array is in sorted order with recursion.
+https://practice.geeksforgeeks.org/problems/check-if-an-array-is-sorted0701/1
+{Code in Recursive way.}
+
+Question.3
+Fibonacci Series Using Recursion.
+https://practice.geeksforgeeks.org/problems/nth-fibonacci-number1335/1
+
+
+Question.4
+N-th Tribonacci Number
+https://leetcode.com/problems/n-th-tribonacci-number/
+
+##(U 1)
