@@ -1,6 +1,8 @@
+package jan_03_2021;
+
 import java.util.Scanner;
  
-public class SingleLinkedList 
+class SingleLinkedList
 {	
 	// Node Description.
 	static class ListNode

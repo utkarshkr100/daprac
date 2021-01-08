@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="jan_02_2021/|jan_01_2021/utkarsh/" kind="src" path="src"/>
+	<classpathentry kind="src" path="src/jan_01_2021/utkarsh"/>
+	<classpathentry kind="src" path="src/jan_02_2021"/>
+	<classpathentry kind="output" path="out/production/daprac"/>
+</classpath>

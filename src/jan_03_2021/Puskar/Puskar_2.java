@@ -1,5 +1,6 @@
-import java.util.Scanner;
-public class DoubleLinkedList 
+package jan_03_2021;
+
+class DoubleLinkedList
 {
 	static class ListNode
 	{
@@ -14,7 +15,7 @@ public class DoubleLinkedList
 	}
 	// Creating Head
 	ListNode head;
-	public void insert(DoubleLinkedList list,int data)
+	public void insert(jan_03_2021.Utkarsh.DoubleLinkedList list, int data)
 	{
 		ListNode new_node=new ListNode(data);
 		new_node.prev=null;
@@ -43,7 +44,7 @@ public class DoubleLinkedList
 	}
 	
 	//Inserting At Beg.
-	public void insertAtBeg(DoubleLinkedList list,int data)
+	public void insertAtBeg(jan_03_2021.Utkarsh.DoubleLinkedList list, int data)
 	{
 		ListNode new_node=new ListNode(data);
 		new_node.prev=null;
@@ -57,7 +58,7 @@ public class DoubleLinkedList
 		
 	}
 	//Inserting At Particular Index
-	public void insertAtIndex(DoubleLinkedList list, int data,int index)
+	public void insertAtIndex(jan_03_2021.Utkarsh.DoubleLinkedList list, int data, int index)
 	{
 		ListNode new_node=new ListNode(data);
 		new_node.prev=null;
@@ -93,7 +94,7 @@ public class DoubleLinkedList
 	
 	//traversing the DoubleLinkedList 
 	
-	public void printlist(DoubleLinkedList list)
+	public void printlist(jan_03_2021.Utkarsh.DoubleLinkedList list)
 	{
 		ListNode curr_node;
 		curr_node=list.head;
@@ -107,7 +108,7 @@ public class DoubleLinkedList
 	}
 	
 	//traversing the linked list in backwarddirection
-	public void traverseBackwards(DoubleLinkedList list)
+	public void traverseBackwards(jan_03_2021.Utkarsh.DoubleLinkedList list)
 	{
 		ListNode curr_node=list.head,prev_node = null;
 		while(curr_node!=null)
@@ -126,7 +127,7 @@ public class DoubleLinkedList
 	}
 	
 	//Deleting the Node By Key 
-	public void deleteByKey(DoubleLinkedList list,int key)
+	public void deleteByKey(jan_03_2021.Utkarsh.DoubleLinkedList list, int key)
 	{
 		ListNode curr_node=list.head,prev_node=null;
 		if(curr_node.data==key)
@@ -159,7 +160,7 @@ public class DoubleLinkedList
 		
 	}
 	//Deleting by index
-			public void deleteByIndex(DoubleLinkedList list,int index)
+			public void deleteByIndex(jan_03_2021.Utkarsh.DoubleLinkedList list, int index)
 			{
 				ListNode curr_node=list.head,prev_node=null;
 				int count=0;
@@ -188,7 +189,7 @@ public class DoubleLinkedList
 			}
 	public static void main(String[] args) 
 	{
-		DoubleLinkedList list=new DoubleLinkedList();
+		jan_03_2021.Utkarsh.DoubleLinkedList list=new jan_03_2021.Utkarsh.DoubleLinkedList();
 		list.insert(list,4);
 		list.insert(list,6);
 		list.insertAtBeg(list,3 );
