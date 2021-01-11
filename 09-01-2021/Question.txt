@@ -14,4 +14,4 @@ Question 5.
 How will you display a linked list from the end?
 
 Question 6.
-Check whether the given Linked List length is even or odd?
+Check whether the given Linked List length is even or odd ??
