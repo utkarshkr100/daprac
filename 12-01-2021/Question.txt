@@ -1,1 +1,21 @@
 Question 1.
+For a given K value (K > 0) reverse blocks of if nodes in a list.
+Example: Input: 1 2 3 4 5 6 7 8 9 10, Output for different K values:
+For K = 2: 2 1 4 3 6 5 8 7 10 9,
+For K = 3: 3 2 1 6 5 4 9 8 7 10,
+For K = 4: 4 3 2 1 8 7 6 5 9 10
+
+Question 2.
+Can we solve Problem-1 with recursion?
+
+Question 3.
+Is it possible to get O(1) access time for Linked Lists?
+
+Question 4.
+JosephusCircle: N people have decided to elect a leader by arranging
+themselves in a circle and eliminating every Mth person around the circle, closing ranks as
+each person drops out. Find which person will be the last one remaining (with rank 1).
+
+Question 5.
+Given a linked list consists of data, a next pointer and also a random pointer
+which points to a random node of the list. Give an algorithm for cloning the list.
