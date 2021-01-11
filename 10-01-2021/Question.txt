@@ -1,1 +1,18 @@
 Question 1.
+If the head of a linked list is pointing to kth element, then how will you get the
+elements before kth element?
+
+Question 2.
+Given two sorted Linked Lists, we need to merge them into the third list in
+sorted order.
+
+Question 3.
+Can we solve Problem-2 without recursion ?
+
+Question 4.
+Reverse the linked list in pairs. If you have a linked list that holds 1
+→2→3→4→X, then after the function has been called the linked list would hold 2→ 1→4
+→3→X.(Imp Marked For Revision By Puskar).
+
+Question 5.
+Recursrive Approach for Problem-4?
