@@ -1,1 +1,19 @@
 Question 1.
+How do we sort the Linked Lists?
+
+Question 2.
+If we want to concatenate two linked lists, which of the following gives O(1)
+complexity?
+1) Singly linked lists
+2) Doubly linked lists
+3) Circular doubly linked lists
+
+Question 3.
+Split a Circular Linked List into two equal parts. If the number of nodes in the
+list are odd then make first list one node extra than second list.
+
+Question 4.
+How will you check if the linked list is palindrome or not?
+
+Question 5.
+Exchange the adjacent elements in a link list.
