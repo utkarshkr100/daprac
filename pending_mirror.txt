@@ -1,3 +1,8 @@
 04-jan Cicular linked list
 05-jan 2 ques rem
 07-jan // have to do Recursive version
+
+
+
+Puskar
+07-jan hashing middle element
