@@ -1,0 +1,49 @@
+import singlelinkedlist.*;
+import singlelinkedlist.SingleLinkedList.ListNode;
+
+public class InsertionInSortedLL extends SingleLinkedList
+{
+	public void insertInSortedLL(SingleLinkedList list,int data)
+	{
+		ListNode new_node =new ListNode(data);
+		ListNode curr_node=list.head;
+		if(list.head==null)
+		{
+			list.head=new_node;
+		}
+		else
+		{
+		while(curr_node.next!=null&&curr_node.next.data<data)
+		{
+			curr_node=curr_node.next;
+		}
+		new_node.next=curr_node.next;
+		curr_node.next=new_node;
+		}
+	}
+	
+	public void printList(SingleLinkedList list)
+	{
+		ListNode curr_node;
+		curr_node=list.head;
+		System.out.print("Linked List : ");
+		while(curr_node!=null)
+		{
+			System.out.print(curr_node.data+" ");
+			curr_node=curr_node.next;
+		}
+	}
+	public static void main(String[] args)
+	{
+		
+		InsertionInSortedLL list =new InsertionInSortedLL();
+		list.insert(list, 0);
+		list.insert(list, 1);
+		list.insert(list, 2);
+		list.insert(list, 3);
+		list.insert(list, 4);
+		list.insert(list, 5);
+		list.insertInSortedLL(list,6);
+		list.printList(list);
+	}
+}
