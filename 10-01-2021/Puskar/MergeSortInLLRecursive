@@ -1,0 +1,49 @@
+import singlelinkedlist.*;
+import singlelinkedlist.SingleLinkedList.ListNode;
+
+public class MergeSortInLLRecursive extends SingleLinkedList
+{
+	static ListNode mergeSortedLLRecursive(ListNode headA,ListNode headB)
+	{
+		ListNode head;
+		if(headA==null)
+		{
+			return headB;
+		}
+		if(headB==null)
+		{
+			return headA;
+		}
+		if(headA.data<headB.data)
+		{
+			head=headA;
+			head.next=mergeSortedLLRecursive(headA.next,headB);
+		}
+		else
+		{
+			head=headB;
+			head.next=mergeSortedLLRecursive(headA,headB.next);
+		}
+		return head;
+	}
+	public static void main(String[] args)
+	{
+		MergeSortInLLRecursive list1=new MergeSortInLLRecursive();
+		MergeSortInLLRecursive list2=new MergeSortInLLRecursive();
+		list1.insert(list1, 0);
+		list2.insert(list2, 1);
+		list1.insert(list1, 2);
+		list2.insert(list2, 3);
+		list1.insert(list1, 4);
+		list2.insert(list2, 5);
+		list2.insert(list2, 6);
+		list2.insert(list2, 7);
+		list2.insert(list2, 8);
+		ListNode curr_node=mergeSortedLLRecursive(list1.head,list2.head);
+		while(curr_node!=null)
+		{
+			System.out.print(curr_node.data+" ");
+			curr_node=curr_node.next;
+		}
+	}
+}
