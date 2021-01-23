@@ -1,0 +1,43 @@
+Q1. Find modular node: Given a singly linked list, write a function to find the last
+element from the beginning whose n%k == 0, where n is the number of elements in the list
+and k is an integer constant. For example, if n = 19 and k = 3 then we should return 18
+th node.
+
+Q2. Find modular node from the end: Given a singly linked list, write a function to
+find the first element from the end whose n%k == 0, where n is the number of elements in
+the list and k is an integer constant. For example, if n = 19 and k = 3 then we should return
+16 th node.
+
+Q3. Find fractional node: Given a singly linked list, write a function to find the n/kth
+element, where n is the number of elements in the list.
+
+Q4. Given a singly linked list L: L1
+-> L2 -> L3 ...-> Ln–1 -> Ln , reorder it to: L1 -> Ln -> L2 -> Ln–1 ......
+
+Q5. How do you implement insertion sort for linked lists ?
+
+Q6. Given a list, rotate the list to the right by k places, where k is non-negative. For
+example: Given 1_->2->3->4->5->NULLand k = 2, return 4->5->1->2->3->NULL.
+
+Q7. You are given two linked lists representing two non-negative numbers. The
+digits are stored in reverse order and each of their nodes contain a single digit. Add the
+two numbers and return it as a linked list. For example with input: (3 -> 4 -> 3) + (5 -> 6 -
+> 4); the output should be 8 -> 0 -> 8.
+
+Q8. Given a linked list and a value K, partition it such that all nodes less than K
+come before nodes greater than or equal to K. You should preserve the original relative
+order of the nodes in each of the two partitions. For example, given 1->4->3->2->5->2
+and K = 3, return 1->2->2->4->3->5.
+
+Q9. Given a unordered linked list, how do you remove duplicates in it?
+
+Q10. Can reduce the time complexity of Problem-61?
+Solution: We can simply use hash table and check whether an element already exist.
+
+Q11. Given two sorted linked lists, given an algorithm for the printing common
+elements of them.
+
+
+
+
+
