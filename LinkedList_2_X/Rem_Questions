@@ -37,7 +37,10 @@ Solution: We can simply use hash table and check whether an element already exis
 
 Q11. Given two sorted linked lists, given an algorithm for the printing common
 elements of them.
-
+  
+  
+  Q.12
+  https://leetcode.com/problems/odd-even-linked-list/
 
 
 
