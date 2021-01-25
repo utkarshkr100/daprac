@@ -19,3 +19,5 @@ each person drops out. Find which person will be the last one remaining (with ra
 Question 5.
 Given a linked list consists of data, a next pointer and also a random pointer
 which points to a random node of the list. Give an algorithm for cloning the list.
+https://leetcode.com/problems/copy-list-with-random-pointer/
+//implemented basic version , yet to be done by Hashing. -Puskar. 
