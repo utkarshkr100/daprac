@@ -2,6 +2,8 @@ Q1.Implement HashMap
 
 Q2.Given an array of characters, give an algorithm for removing the duplicates.
   -Use time complexity o(n^2) without hashing. 
+  https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+  //its not on character but on Integers but same Questions.
 
 Q3.Sort and use to get in o(nlogn) time complexity.
 
