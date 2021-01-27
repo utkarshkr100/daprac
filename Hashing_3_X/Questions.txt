@@ -8,3 +8,14 @@ Q2.Given an array of characters, give an algorithm for removing the duplicates.
 Q3.Sort and use to get in o(nlogn) time complexity.
 
 Q4.Do with hashing in o(n) time complexity.
+
+Q5.Given two arrays of unordered numbers, check whether both arrays have the same
+set of numbers?
+
+Q6.Can we improve the time complexity of Problem-5?
+    Solution: Yes. To improve the time complexity, let us assume that we have sorted both the lists.
+    Since the sizes of both arrays are n, we need O(n log n) time for sorting them. After sorting, we
+    just need to scan both the arrays with two pointers and see whether they point to the same element
+    every time, and keep moving the pointers until we reach the end of the arrays.
+
+Q7. use hashing for Question 5.
