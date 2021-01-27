@@ -1,1 +1,8 @@
 Q1.Implement HashMap
+
+Q2.Given an array of characters, give an algorithm for removing the duplicates.
+  -Use time complexity o(n^2) without hashing.
+
+Q3.Sort and use to get in o(n) time complexity.
+
+Q4.Do with hashing in o(n) time complexity.
