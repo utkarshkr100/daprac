@@ -24,6 +24,7 @@ Q8.Given a list of number pairs; if pair(i,j) exists, and pair(j,i) exists, repo
 pairs. For example, in {{1,3},{2,6},{3,5},{7,4},{5,3},{8,7}}, we see that {3,5} and
 {5,3} are present. Report this pair when you encounter {5,3}. We call such pairs
 ‘symmetric pairs’. So, give an efficient algorithm for finding all such pairs.
+https://www.geeksforgeeks.org/given-an-array-of-pairs-find-all-symmetric-pairs-in-it/
 
 Q9.Given a singly linked list, check whether it has a loop in it or not.
 Solution: Using Hash Tables.
@@ -52,6 +53,18 @@ Q 16. Given a string, give an algorithm for finding the first repeating letter i
 Q 17. Given an array of n numbers, create an algorithm which displays all pairs
 whose sum is S.
 
-Q 18.
+Q 18.https://practice.geeksforgeeks.org/problems/array-subset-of-another-array/0
+
+Q 19. https://www.geeksforgeeks.org/find-itinerary-from-a-given-list-of-tickets/
+
+Q 20. https://www.geeksforgeeks.org/find-the-largest-subarray-with-0-sum/
+
+Q 21. https://www.geeksforgeeks.org/count-distinct-elements-in-every-window-of-size-k/
+
+Q 22. https://www.geeksforgeeks.org/longest-consecutive-subsequence/
+
+Q 23.https://www.geeksforgeeks.org/find-four-elements-a-b-c-and-d-in-an-array-such-that-ab-cd/
+
+Q 24. https://www.geeksforgeeks.org/find-smallest-range-containing-elements-from-k-lists/
 
 
