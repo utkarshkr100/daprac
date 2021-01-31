@@ -58,6 +58,9 @@ Q 18.https://practice.geeksforgeeks.org/problems/array-subset-of-another-array/0
 Q 19. https://www.geeksforgeeks.org/find-itinerary-from-a-given-list-of-tickets/
 
 Q 20. https://www.geeksforgeeks.org/find-the-largest-subarray-with-0-sum/
+Or 
+https://leetcode.com/problems/subarray-sum-equals-k/
+both apporach is same but minute difference.
 
 Q 21. https://www.geeksforgeeks.org/count-distinct-elements-in-every-window-of-size-k/
 
