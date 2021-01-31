@@ -71,3 +71,4 @@ Q 23.https://www.geeksforgeeks.org/find-four-elements-a-b-c-and-d-in-an-array-su
 Q 24. https://www.geeksforgeeks.org/find-smallest-range-containing-elements-from-k-lists/
 
 
+//mostly they are from Dynamic programming approach (18-24)
