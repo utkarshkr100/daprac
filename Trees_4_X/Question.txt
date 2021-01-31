@@ -1,0 +1,35 @@
+//basically set means Similiar types Of Questions.
+//https://medium.com/javarevisited/20-binary-tree-algorithms-problems-from-coding-interviews-c5e5a384df30
+                                                                    Trees Set :-01
+Question 1:
+ Implement Binary Tree.
+ 
+Question 2:
+ How do you perform preorder traversal in a given binary tree?
+
+Question 3:
+ How do you traverse a given binary tree in preorder without recursion?
+ 
+Question 4:
+ How do you perform an inorder traversal in a given binary tree?
+
+Question 5:
+ How do you print all nodes of a given binary tree using inorder traversal without recursion? 
+ 
+Question 6:
+ How do you implement a postorder traversal algorithm? 
+ 
+Question 7:
+ How do you traverse a binary tree in postorder traversal without recursion?
+ 
+Question 8:
+ How are all leaves of a binary search tree printed?
+ 
+Question 9:
+
+Question 10:
+
+Question 11:
+
+Question 12:
+ 
